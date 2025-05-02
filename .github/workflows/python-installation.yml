@@ -10,9 +10,9 @@ jobs:
           - ubuntu-latest
           - macos-14
           - windows-latest
-        exclude:
-          - os: macos-14
-            py-version: 3.12
+        exclude: #added
+          - os: macos-14 #added
+            py-version: 3.12 #added
         py-version:
           - "3.10"
           - "3.11"
